@@ -1,12 +1,11 @@
 export const func = () => {
-    console.log("imported");
-}
+  console.log('imported');
+};
 
 const doSomethingAsync = () => {
-    console.log("async!");
-}
+  console.log('async!');
+};
 
 export const asyncFunc = async () => {
-    await doSomethingAsync();
-  }
-
+  await doSomethingAsync();
+};
